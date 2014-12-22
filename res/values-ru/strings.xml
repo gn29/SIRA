@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App common -->
+    <string name="app_name">SIRA</string>
+    <string name="app_long_name">Simple Internet radio app / Простое приложение для проигрывания Интренет-радиостанций</string>
+    <string name="app_version">версия 0.9 (декабрь 2014)</string>
+    
+    
+    <string name="action_settings">Настройки</string>
+    <string name="radio_title_hint">Заголовок</string>
+    <string name="list_fragment_title">Радиостанции</string>
+    <string name="file_path">radio_list.txt</string>
+    <string name="actionbar_subtitle">Выберете радио</string>
+    <string name="actionbar_menu_item_add">Добавить</string>
+    <string name="actionbar_menu_item_overflow">Дополнительно</string>
+    <string name="notification_service_comment">Коснитесь, что бы прекратить звучание</string>
+    <string name="action_mode_item_edit">Изменить</string>
+    <string name="action_mode_item_delete">Удалить</string>
+    <string name="action_play">Играть</string>
+    <string name="action_stop">Стоп</string>
+    <string name="actionmode_menu_item_edit">Изменить</string>
+    <string name="actionmode_menu_item_delete">Удалить</string>
+    <string name="radio_uri_hint">URL-адресс</string>
+    <string name="radio_header_text">Радио</string>
+    
+    <!-- Popup menu strings -->
+    <string name="popup_add_item">Добавить</string>
+    <string name="popup_aboud_item">О программе</string>
+    
+    <!-- RadioDialogFragment -->
+    <string name="no_name_radio">Без имени</string>
+    <string name="no_url_radio">Необходимо указать URL-адрес. Повторите.</string>
+    
+</resources>

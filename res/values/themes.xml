@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style 
+        name="ActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse"  >
+        <item name="android:background">@color/action_bar_color</item>
+        
+        
+    </style>
+    
+    <!-- Dialog add  -->
+    <style name="DialogStyle"
+        parent="@style/MyActionBar">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    
+    
+</resources>

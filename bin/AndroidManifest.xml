@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.easyapp.sira"
+    android:versionName="0.9"
+    android:versionCode="1"
+    android:installLocation="auto"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21"
+        />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_stat_notify_radio"
+        android:logo="@drawable/ic_stat_notify_radio"
+        android:label="@string/app_name"
+        android:theme="@style/ActionBarTheme">
+        
+        <activity
+            android:name="ru.easyapp.sira.RadioActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity 
+            android:name=".RadioListActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+        <activity 
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RadioListActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RadioListActivity">
+                
+            </meta-data>
+        </activity>
+            
+        <service 
+            android:enabled="true"
+            android:name="ru.easyapp.sira.PlayService2"
+            android:exported="false">
+            <intent-filter >
+                <action android:name="ru.easyapp.sira.ACTION_PLAY"/>
+                <action android:name="ru.easyapp.sira.ACTION_STOP"/>
+            </intent-filter>
+        </service>
+                   
+    </application>
+
+</manifest>

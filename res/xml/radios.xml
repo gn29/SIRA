@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <radio name="Echo.msk.ru">
+        <stream bitrate="128" url="http://81.19.85.197/echo.mp3"/>
+    </radio>
+    <radio name="Svoboda.org">
+        <stream bitrate="128" url="http://rfe-channel-04.akacast.akamaistream.net/7/885/229654/v1/ibb.akacast.akamaistream.net/rfe_channel_04.mp3" />
+    </radio>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/edit_item" 
+        android:showAsAction="ifRoom" 
+        android:title="@string/actionmode_menu_item_edit"
+        android:icon="@drawable/ic_action_edit"/>
+    
+    <item android:id="@+id/delete_item" 
+        android:icon="@drawable/ic_action_discard" 
+        android:title="@string/actionmode_menu_item_delete" 
+        android:showAsAction="ifRoom" />
+    
+
+</menu>
